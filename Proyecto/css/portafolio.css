@@ -65,9 +65,9 @@ margin-bottom:0%
 #container {
     width: 1000px;
     overflow: hidden;
-    margin: 50px auto;
+    margin: 0px auto;
     background: transparent;
-	margin-top:10%;
+	margin-top:2%;
 }
 header {
     width: 800px;
@@ -76,14 +76,15 @@ header {
  
 header h1 {
     text-align: center;
-    font: 100 60px/1.5 Helvetica, Verdana, sans-serif;
+    font: 100 40px/1 Helvetica, Verdana, sans-serif;
 	color:#FFF
      
 }
  
 header p {
-    font: 100 15px/1.5 Chalet, Helvetica, Verdana, sans-serif;
+    font: 100 15px/0.10 Helvetica, Verdana, sans-serif;
     text-align: center;
+	color:#999
 }
  
 /*photobanner*/
@@ -176,3 +177,9 @@ header p {
     box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
 }
 
+#footer{
+	width:100%;
+	height: 6%;
+	background-color:transparent;
+	position:bottom;
+	}
