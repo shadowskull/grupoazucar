@@ -1,0 +1,2 @@
+<embed src="ruta_del_video/video.avi" autostart="false" loop="false" width="375" height="500">
+
