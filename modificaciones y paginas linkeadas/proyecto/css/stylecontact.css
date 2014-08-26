@@ -1,0 +1,117 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	font-family: "Neutra Text";
+	src: url("..fonts/NeutraText-Book.otf");
+	src: url("..fonts/neutratextbook.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+/* 16px = 12pts = 1em = 100%*/
+
+body {
+	background: #212121 url(../img/fondo.jpeg);
+	color: #FFF;
+	font-family: "Neutra Text", Helvetica, Myriad Pro, Arial; 
+	font-size: 2em;
+	}
+
+img.logo{
+	max-width: 100%;
+}
+h1{
+	color: #F60;
+	margin: 0.25em auto;
+	text-align: center;
+	text-shadow: 5px 5px 10px rgba(255,255,255,0.5)/* distancia X - distancia Y -BLUR -rgba transparencia*/
+}
+footer{
+background: #1e6381;
+border-radius: 0.5em;
+margin: 0.5em auto;
+max-width: 1500px;
+padding: 0.5em;
+text-align: center;
+}
+section.contenedor{
+	margin: 0.5em auto;
+	max-width: 1500px;
+	padding: 0.5em;
+	text-align: center;
+}
+.fijar{
+	max-width: 100px;
+}
+
+.form-control{
+ height: 25px;
+ width:250px;
+}
+
+
+
+section#principal, aside, hgroup{
+	background: #1e6381;
+	border-radius: 0.5em;
+	display: inline-block; /*primero se comporta como elemento en línea y luego se comporta como en bloque*/
+	margin: 0.5em auto;
+	max-width: 1500px;
+	min-height: 200px;
+	padding: 0.5em;
+	text-align: center;
+	vertical-align: top;
+	width: 95%
+}
+article{
+	background: #1e6381;
+	border-radius: 0.5em;
+	min-height: 200px;
+	padding: 0.5em;
+}
+
+aside{
+	width: 5% /*Como los CSS se leen de arriba hacia abajo leerá luego el width específico de aside*/
+}
+/*link (cuando el vínculo no ha sido visitado) 
+hover (cuando el puntero pasa por encima) 
+active (cuando el puntero hace clic sobre él) 
+focus (cuando el tabulador está activo en él) 
+visited (cuando el vínculo ya ha sido visitado)*/
+
+a.boton{ 
+	background-color: #FF8C00; 
+	background-image: "img/iris.png";
+	background-repeat: no-repeat;
+	border: 1px #FFF solid; 
+	border-radius: 0.5em;
+	color: #FFF; 
+	display: screen;
+	float:center;
+	font-family: "Neutra Text", Calibri, Helvetica, Myriad Pro, Arial;
+	height:inherit;
+	line-height:inherit;
+	max-width: 1500px;
+	margin: 0.5em auto;
+	min-height: 200px;
+	line-height:40px;
+	/*max-height: 100%;
+	max-width: 10px;*/
+	width: 10px;
+	height: 40px;
+	padding: 5px 20px 5px 40px; 
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+}
+a.boton:hover { 
+font-style: italic; 
+box-shadow: 0px 0px 5px 0px rgba(255 255 255 0.5); 
+}
+a.boton:active { 
+color: #FFFF99; 
+background-color: #FF0000; 
+box-shadow: 0px 0px 10px 0px #000000; 
+}
